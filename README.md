@@ -1,4 +1,4 @@
-# 🎮 Nintendo Games Analysis
+# 🎮 analise-vendas-nintendo
 
 📌 **Problema de Negócio**  
 A Nintendo precisava entender onde investir em cada região do mundo para maximizar suas vendas.  
@@ -26,20 +26,34 @@ As queries estão disponíveis no arquivo 'nintendo_analysis.sql'.
 - **Europa:** *Wii Sports e Mario Kart Wii lideram as vendas na Europa.  
 - **Japão:** *Pokémon Red/Blue* e *Pokémon Gold/Silver* — RPGs portáteis no Game Boy lideram.  
 - **Outros países:** *GTA: San Andreas* (PS2) e *Wii Sports* — destaque para jogos de ação fora do ecossistema Nintendo          mostrando que esse mercado possui preferências mais diversificadas.
-
+  
+   <img src="./america_do_norte/Screenshot 2026-07-09 002230.png" width="600">
+   <img src="./europa/Screenshot 2026-07-09 002429.png" width="600">
+   <img src="./japao/Screenshot 2026-07-09 002628.png" width="600">
+   <img src="./outros/Screenshot 2026-07-09 002659.png" width="600">
+    
+   
+   
 **2️⃣ Vendas por gênero e plataforma:**
 - **Esportes (Wii)** → lideram na América do Norte e Europa.  
 - **RPG (GB)** → dominam no Japão, impulsionados por Pokémon.  
-- **Ação (PS2)** → aparecem fortes em outros países. 
+- **Ação (PS2)** → aparecem fortes em outros países.
+  
+  <img src="./america_do_norte/Screenshot 2026-07-09 002342.png" width="600">
+  <img src="./europa/Screenshot 2026-07-09 002510.png" width="600">
+  <img src="./japao/Screenshot 2026-07-09 002556.png" width="600">
+  <img src="./outros/Screenshot 2026-07-09 002749.png" width="600">
+ 
+   
 
-Esses resultados mostram que o mercado é completamente diferente dependendo da região.  
+    Esses resultados mostram que o mercado é completamente diferente dependendo da região.  
 👉 Estratégias globais genéricas não funcionam — cada público tem sua própria cultura gamer.
 
 ---
 
 🧩 **Diferenças entre os resultados por jogo e por gênero/plataforma**
 
-Durante a análise, percebi que os resultados individuais dos jogos não coincidem exatamente com os totais agrupados por gênero e plataforma. Isso acontece por alguns motivos:
+   Durante a análise, percebi que os resultados individuais dos jogos não coincidem exatamente com os totais agrupados por       gênero e plataforma. Isso acontece por alguns motivos:
 
 1. **Nível de agregação diferente**  
    - Consultas por jogo mostram vendas de cada título específico.  
@@ -60,16 +74,17 @@ Durante a análise, percebi que os resultados individuais dos jogos não coincid
    - Tabelas de gênero/plataforma → mostram **quem domina o mercado como categoria**.  
 
 💡 **Conclusão:**  
-     Essas diferenças são esperadas e enriquecem a análise. Elas mostram que o sucesso de um jogo não depende apenas do           gênero, mas também da plataforma e da cultura regional.  
-     Os resultados sugerem que a Nintendo poderia direcionar seus investimentos: **Esportes no Wii** para América do Norte e      Europa, e **RPGs no Game Boy** para o Japão.
+     Essas diferenças são esperadas e enriquecem a análise. Elas mostram que o sucesso de um jogo não depende apenas do            gênero, mas também da plataforma e da cultura regional.  
+     Os resultados sugerem que a Nintendo poderia direcionar seus investimentos: **Esportes no Wii** para América do Norte e       Europa, e **RPGs no Game Boy** para o Japão.
 
 ---
 
-✨ **Como visualizar este projeto
+✨ **Como visualizar este projeto**
 
-  - Consulte o arquivo `nintendo_analysis.sql` para ver todas as consultas utilizadas.
-  - Veja os prints dos resultados para acompanhar cada etapa da análise.
-  - Leia as conclusões para entender os principais insights encontrados.
-   ** [GitHub - dhessa14/nintendo-games-analysis](https://github.com/dhessa14/nintendo-games-analysis)
+  * Navegue pelas pastas regionais (america-do-norte, europa, japao, outros) para ver as consultas utilizadas.
+  * Veja as imagens dos resultados para acompanhar cada etapa da análise direto no banco de dados.
+  * Leia as conclusões para entender os principais insights encontrados.
 
-#SQL #DataAnalysis #Nintendo #PostgreSQL #Analytics #DataDriven #MulheresNaTecnologia
+---
+
+📱 **Contato e Redes:** [LinkedIn](https://www.linkedin.com/in/andressadeoliveira)
