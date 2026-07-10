@@ -18,7 +18,7 @@ O objetivo deste projeto foi responder à pergunta:
 🛠️ **Metodologia (SQL)**  
 
 Utilizei PostgreSQL para analisar uma base histórica de vendas de jogos. As consultas foram desenvolvidas utilizando SELECT, SUM, GROUP BY, ORDER BY e LIMIT, permitindo identificar padrões de vendas por jogo, gênero, plataforma e região.
-As queries estão disponíveis no arquivo 'nintendo_analysis.sql'.
+As queries estão disponíveis no arquivo 'analise-vendas-nintendo'.
 
 📊 **Resultados e Insights**
 
