@@ -10,6 +10,7 @@ O objetivo deste projeto foi responder à pergunta:
 ❓ **Perguntas de Pesquisa** 
 
 1 Quais foram os jogos mais vendidos em cada região do mundo?
+
 2 Como a preferência por gênero de jogo e plataforma varia entre as regiões? 
 
 ---
